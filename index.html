@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-2</title>
+    <link rel="shortcut icon" href="img/4-modified.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black px-3 ">
+    <!-- header start -->
+    <header>
+        <!-- nav start -->
+        <nav class="container mx-auto flex justify-between items-center py-8">
+            <div>
+                <img width="100px" src="img/logo.png" alt="logo" />
+            </div>
+            <div class="text-white md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+
+            </div>
+            <div class="hidden md:block">
+                <div class="flex gap-8 items-center justify-center text-white">
+                    <ul class="flex items-center">
+                        <li class="mr-2 px-2 py-1 bg-transparent">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="mr-2 px-2 py-1 bg-transparent">
+                            <a href="#">About Me</a>
+                        </li>
+                        <li class="mr-2 px-2 py-1 bg-transparent">
+                            <a href="#">Projects</a>
+                        </li>
+                        <li class="mr-2 px-2 py-1 bg-transparent">
+                            <a href="#">Testimonials</a>
+                        </li>
+                    </ul>
+
+                    <button class="bg-[#E6AA32] px-5 py-2 rounded-full text-black">
+              Download CV
+            </button>
+                </div>
+            </div>
+        </nav>
+        <!-- nav end -->
+
+        <section class="hr mb-10">
+            <div class="w-full h-[1px] bg-[#1C1C21]"></div>
+        </section>
+
+        <!-- banner start -->
+        <section class="banner-section container mx-auto">
+            <div class="banner-container flex flex-col-reverse lg:flex-row justify-between md:items-center gap-5">
+                <div class="w-fit md:w-1/2">
+                    <div class="w-fit space-y-5">
+                        <p class="text-[#797C86] text-[18px]">Web Developer</p>
+                        <h1 class="text-6xl font-extrabold uppercase text-white leading-[74px]">
+                            HI! This is <br />
+                            <span class="text-[#E6AA32]">Mohiuddin Murad</span>
+                        </h1>
+                        <p class="text-[#797C86] text-[18px]">
+                            As a web designer with four years of experience, I specialize in creating visually appealing and user-friendly websites. My expertise includes responsive design, UI/UX principles, and collaborating with clients to bring their visions to life.
+                        </p>
+
+                        <div class="flex flex-col md:flex-row">
+                            <div>
+                                <button class="bg-[#E6AA32] px-10 py-3 rounded-full">
+                    Let’s Connect
+                  </button>
+                            </div>
+
+                            <div class="flex items-center">
+                                <button class="text-white px-5 py-3 rounded-full">
+                    View Portfolios
+                  </button>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="size-9 text-white">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="relative flex justify-end items-center">
+                        <div class=" w-[100%] h-[70%]   rounded-ss-[100px] -z-10 absolute right-0  bg-gradient-to-b from-[#17171A] to-[#17171A00] opacity-90"></div>
+                        <img src="./img/hero-img-3.png" alt="hero-img" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner end -->
+    </header>
+    <!-- header end -->
+
+    <!-- main start-->
+    <main>
+        <section class="specialties-section container mx-auto mt-28">
+            <div class="specialties-container">
+                <div class="text-[#797C86] text-center space-y-3">
+                    <p class="text-xl uppercase">Specialties</p>
+                    <h1 class="text-white uppercase text-5xl font-semibold">
+                        My specialities
+                    </h1>
+                    <p>
+                        As a web designer with four years of experience, I specialize in creating visually appealing <br /> and user-friendly websites. My expertise includes responsive design.
+                    </p>
+                </div>
+
+                <div class="specialties-cards grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 py-20">
+                    <div class="specialties-card">
+                        <div class="relative text-center space-y-2 h-[350px] px-6 flex justify-center items-center">
+                            <div class="inset-0 absolute bg-gradient-to-b from-[#0E0E10] to-[#17171A3B] opacity-70 -z-10"></div>
+                            <div class="space-y-2 z-10">
+                                <div class="flex items-center justify-center">
+                                    <img src="img/Front-End-Development.png" alt="" />
+                                </div>
+                                <h3 class="text-white text-lg">Front-End Development</h3>
+                                <p class="text-[#E6E6E682] text-sm">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="specialties-card">
+                        <div class="relative text-center space-y-2 h-[350px] px-6 flex justify-center items-center">
+                            <div class="inset-0 absolute bg-gradient-to-b from-[#0E0E10] to-[#17171A3B] opacity-70 -z-10"></div>
+                            <div class="space-y-2 z-10">
+                                <div class="flex items-center justify-center">
+                                    <img src="img/AI-Powered-Development.png" alt="" />
+                                </div>
+                                <h3 class="text-white text-lg">AI-Powered Development</h3>
+                                <p class="text-[#E6E6E682] text-sm">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="specialties-card">
+                        <div class="relative text-center space-y-2 h-[350px] px-6 flex justify-center items-center">
+                            <div class="inset-0 absolute bg-gradient-to-b from-[#0E0E10] to-[#17171A3B] opacity-70 -z-10"></div>
+                            <div class="space-y-2 z-10">
+                                <div class="flex items-center justify-center">
+                                    <img src="img/Back-End-Development.png" alt="" />
+                                </div>
+                                <h3 class="text-white text-lg">Back-End Development</h3>
+                                <p class="text-[#E6E6E682] text-sm">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="specialties-card">
+                        <div class="relative text-center space-y-2 h-[350px] px-6 flex justify-center items-center">
+                            <div class="inset-0 absolute bg-gradient-to-b from-[#0E0E10] to-[#17171A3B] opacity-70 -z-10"></div>
+                            <div class="space-y-2 z-10">
+                                <div class="flex items-center justify-center">
+                                    <img src="img/Full-Stack-Development.png" alt="" />
+                                </div>
+                                <h3 class="text-white text-lg">Full-Stack Development</h3>
+                                <p class="text-[#E6E6E682] text-sm">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="specialties-card">
+                        <div class="relative text-center space-y-2 h-[350px] px-6 flex justify-center items-center overflow-hidden">
+                            <div class="inset-0 absolute bg-gradient-to-b from-[#0E0E10] to-[#17171A3B] opacity-70 -z-10"></div>
+                            <div class="space-y-2 z-10 ">
+                                <div class="flex items-center justify-center">
+                                    <img src="img/Web-Application-Security.png" alt="" />
+                                </div>
+                                <h3 class="text-white text-lg">Web Application Security</h3>
+                                <p class="text-[#E6E6E682] text-sm">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="specialties-card">
+                        <div class="relative text-center space-y-2 h-[350px] px-6 flex justify-center items-center">
+                            <div class="inset-0 absolute bg-gradient-to-b from-[#0E0E10] to-[#17171A3B] opacity-70 -z-10"></div>
+                            <div class="space-y-2 z-10">
+                                <div class="flex items-center justify-center">
+                                    <img src="img/E-commerce-Development.png" alt="" />
+                                </div>
+                                <h3 class="text-white text-lg">E-commerce Development</h3>
+                                <p class="text-[#E6E6E682] text-sm">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="specialties-card">
+                        <div class="relative text-center space-y-2 h-[350px] px-6 flex justify-center items-center">
+                            <div class="inset-0 absolute bg-gradient-to-b from-[#0E0E10] to-[#17171A3B] opacity-70 -z-10"></div>
+                            <div class="space-y-2 z-10">
+                                <div class="flex items-center justify-center">
+                                    <img src="img/Cloud-Based-Development.png" alt="" />
+                                </div>
+                                <h3 class="text-white text-lg">Cloud-Based Development</h3>
+                                <p class="text-[#E6E6E682] text-sm">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="specialties-card">
+                        <div class="relative text-center space-y-2 h-[350px] px-6 flex justify-center items-center">
+                            <div class="inset-0 absolute bg-gradient-to-b from-[#0E0E10] to-[#17171A3B] opacity-70 -z-10"></div>
+                            <div class="space-y-2 z-10">
+                                <div class="flex items-center justify-center">
+                                    <img src="img/Progressive-Web-Apps.png" alt="" />
+                                </div>
+                                <h3 class="text-white text-lg">Progressive Web Apps</h3>
+                                <p class="text-[#E6E6E682] text-sm">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recent-works-section container mx-auto">
+            <div class="recent-works-container">
+                <div class="text-[#797C86] text-center space-y-3">
+                    <p class="text-xl uppercase">recent works</p>
+                    <h1 class="text-white uppercase text-5xl font-semibold">
+                        My Recent works
+                    </h1>
+                    <p>
+                        As a web designer with four years of experience, I specialize in creating visually appealing <br /> and user-friendly websites. My expertise includes responsive design.
+                    </p>
+                </div>
+
+                <div class="flex justify-center items-center mt-20">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div class="w-full bg-[#262626]  overflow-hidden">
+                            <img src="img/img2/img3.png" alt="tailwind-css-project-01">
+                        </div>
+                        <div class="w-full bg-[#262626] overflow-hidden">
+                            <img src="img/img2/img4.png" alt="tailwind-css-project-02">
+                        </div>
+                        <div class="w-full bg-[#262626] overflow-hidden">
+                            <img src="img/img2/img5.png" alt="tailwind-css-project-03">
+                        </div>
+                        <div class="w-full bg-[#262626] overflow-hidden">
+                            <img src="img/img2/img6.png" alt="tailwind-css-project-04">
+                        </div>
+                        <div class="w-full bg-[#262626] "></div>
+                        <div class="w-full bg-[#262626] "></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-section container mx-auto mt-28">
+            <div class="services-container">
+                <div class="text-[#797C86] text-center space-y-3">
+                    <p class="text-xl uppercase">Services</p>
+                    <h1 class="text-white uppercase text-5xl font-semibold">
+                        My other services
+                    </h1>
+                    <p>
+                        As a web designer with four years of experience, I specialize in creating visually appealing <br /> and user-friendly websites. My expertise includes responsive design.
+                    </p>
+                </div>
+
+                <div class="services-cards grid  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 py-10">
+                    <div class="services-card">
+                        <div class="relative flex justify-center items-center text-center px-5  rounded-md h-[293px]">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#0E0E10] to-[#17171A3B] opacity-90 -z-10 rounded-md"></div>
+                            <div class="space-y-3">
+                                <h3 class="text-[#E6E6E6] text-[18px] font-semibold">
+                                    Website Development
+                                </h3>
+                                <p class="text-[#E6E6E682]">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-card">
+                        <div class="relative flex justify-center items-center text-center px-5 rounded-md h-[293px]">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#0E0E10] to-[#17171A3B] opacity-90 -z-10 rounded-md"></div>
+                            <div class="space-y-3">
+                                <h3 class="text-[#E6E6E6] text-[18px] font-semibold">
+                                    E-Commerce Development
+                                </h3>
+                                <p class="text-[#E6E6E682]">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services-card">
+                        <div class="relative flex justify-center items-center text-center px-5 rounded-md h-[293px]">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#0E0E10] to-[#17171A3B] opacity-90 -z-10 rounded-md"></div>
+                            <div class="space-y-3">
+                                <h3 class="text-[#E6E6E6] text-[18px] font-semibold">
+                                    Web App Development
+                                </h3>
+                                <p class="text-[#E6E6E682]">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services-card">
+                        <div class="relative flex justify-center items-center text-center px-5 rounded-md h-[293px]">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#0E0E10] to-[#17171A3B] opacity-90 -z-10 rounded-md"></div>
+                            <div class="space-y-3">
+                                <h3 class="text-[#E6E6E6] text-[18px] font-semibold">
+                                    API Dev. & Integration
+                                </h3>
+                                <p class="text-[#E6E6E682]">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services-card">
+                        <div class="relative flex justify-center items-center text-center px-5 rounded-md h-[293px]">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#0E0E10] to-[#17171A3B] opacity-90 -z-10 rounded-md"></div>
+                            <div class="space-y-3">
+                                <h3 class="text-[#E6E6E6] text-[18px] font-semibold">
+                                    Cloud-Based Solutions
+                                </h3>
+                                <p class="text-[#E6E6E682]">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services-card">
+                        <div class="relative flex justify-center items-center text-center px-5 rounded-md h-[293px]">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#0E0E10] to-[#17171A3B] opacity-90 -z-10 rounded-md"></div>
+                            <div class="space-y-3">
+                                <h3 class="text-[#E6E6E6] text-[18px] font-semibold">
+                                    Web Perform. Optimization
+                                </h3>
+                                <p class="text-[#E6E6E682]">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services-card">
+                        <div class="relative flex justify-center items-center text-center px-5 rounded-md h-[293px]">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#0E0E10] to-[#17171A3B] opacity-90 -z-10 rounded-md"></div>
+                            <div class="space-y-3">
+                                <h3 class="text-[#E6E6E6] text-[18px] font-semibold">
+                                    (SEO) Services
+                                </h3>
+                                <p class="text-[#E6E6E682]">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services-card">
+                        <div class="relative flex justify-center items-center text-center px-5 rounded-md h-[293px]">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#0E0E10] to-[#17171A3B] opacity-90 -z-10 rounded-md"></div>
+                            <div class="space-y-3">
+                                <h3 class="text-[#E6E6E6] text-[18px] font-semibold">
+                                    Website Maint. & Support
+                                </h3>
+                                <p class="text-[#E6E6E682]">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section container mx-auto mt-28">
+            <div class="faq-container">
+                <p class="font-semibold text-[#797C86] uppercase">FAQ’s</p>
+                <h3 class="text-5xl text-white uppercase font-semibold">
+                    Frequently Asked Questions
+                </h3>
+                <div class="h-[1px] w-full bg-[#1C1C21] my-5"></div>
+
+                <div class="faqs-list mt-10">
+
+                    <div class="faq flex items-center">
+                        <div class="w-full">
+                            <div class="flex justify-between items-center py-10">
+                                <div class="space-y-3">
+                                    <h3 class="text-[20px] uppercase text-white">
+                                        What areas of web development do you focus on?
+                                    </h3>
+                                    <p class="text-[18px] text-[#797C86]">
+                                        I specialize in web development, creating websites that deliver unique user experiences.
+                                    </p>
+                                </div>
+                                <div class="flex items-center">
+                                    <img src="img/uparrow-icon.png" alt="icon" class="rounded-full px-2 py-2 border border-[#797C86]" />
+                                </div>
+                            </div>
+                            <div class="w-full h-[1px] bg-[#1C1C21] "></div>
+                        </div>
+                    </div>
+
+                    <div class="faq flex items-center">
+                        <div class="w-full">
+                            <div class="flex justify-between items-center py-10">
+                                <div class="space-y-3">
+                                    <h3 class="text-[20px] uppercase text-white">
+                                        How can I schedule a web development consultation with you?
+                                    </h3>
+
+                                </div>
+                                <div class="flex items-center">
+                                    <img src="img/downarrow-icon.png" alt="icon" class="rounded-full px-2 py-2 border border-[#797C86]" />
+                                </div>
+                            </div>
+                            <div class="w-full h-[1px] bg-[#1C1C21] "></div>
+                        </div>
+                    </div>
+
+                    <div class="faq flex items-center">
+                        <div class="w-full">
+                            <div class="flex justify-between items-center py-10">
+                                <div class="space-y-3">
+                                    <h3 class="text-[20px] uppercase text-white">
+                                        Can I choose a specific platform for my website?
+                                    </h3>
+
+                                </div>
+                                <div class="flex items-center">
+                                    <img src="img/downarrow-icon.png" alt="icon" class="rounded-full px-2 py-2 border border-[#797C86]" />
+                                </div>
+                            </div>
+                            <div class="w-full h-[1px] bg-[#1C1C21] "></div>
+                        </div>
+                    </div>
+
+                    <div class="faq flex items-center">
+                        <div class="w-full">
+                            <div class="flex justify-between items-center py-10">
+                                <div class="space-y-3">
+                                    <h3 class="text-[20px] uppercase text-white">
+                                        What tools and technologies do you use for web development?
+                                    </h3>
+
+                                </div>
+                                <div class="flex justify-center items-center ">
+                                    <img src="img/downarrow-icon.png" alt="icon" class="rounded-full px-2 py-2 border border-[#797C86]" />
+                                </div>
+                            </div>
+                            <div class="w-full h-[1px] bg-[#1C1C21] "></div>
+                        </div>
+                    </div>
+
+                    <div class="faq flex items-center">
+                        <div class="w-full">
+                            <div class="flex justify-between items-center py-10">
+                                <div class="space-y-3">
+                                    <h3 class="text-[20px] uppercase text-white">
+                                        Can I choose a specific platform for my website?
+                                    </h3>
+
+                                </div>
+                                <div class="flex items-center">
+                                    <img src="img/downarrow-icon.png" alt="icon" class="rounded-full px-2 py-2 border border-[#797C86]" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="hr mt-20">
+            <div class="w-full h-[1px] bg-[#1C1C21]"></div>
+        </section>
+    </main>
+    <!-- main end-->
+
+    <!-- footer start -->
+    <footer>
+        <section class="footer-section ">
+            <div class="container mx-auto footer-top py-20">
+                <div class="footer-top-container text-[18px] grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-14 place-items-center uppercase py-10">
+                    <div class="space-y-4">
+                        <p class="text-[#797C86]">Solutions</p>
+                        <ul class="text-white underline decoration-[#2F2F37] underline-offset-8 space-y-3">
+                            <li><a href="#">Glintopia</a></li>
+                            <li><a href="#">Fluxway</a></li>
+                            <li><a href="#">Fable’s</a></li>
+                            <li><a href="#">PowerCore</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="space-y-4">
+                        <p class="text-[#797C86]">Customers</p>
+                        <ul class="text-white underline decoration-[#2F2F37] underline-offset-8 space-y-3">
+                            <li><a href="#">Glintopia</a></li>
+                            <li><a href="#">Fluxway</a></li>
+                            <li><a href="#">Fable’s</a></li>
+                            <li><a href="#">PowerCore</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="space-y-4">
+                        <p class="text-[#797C86]">Partners</p>
+                        <ul class="text-white underline decoration-[#2F2F37] underline-offset-8 space-y-3">
+                            <li><a href="#">Glintopia</a></li>
+                            <li><a href="#">Fluxway</a></li>
+                            <li><a href="#">Fable’s</a></li>
+                            <li><a href="#">PowerCore</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="space-y-4">
+                        <p class="text-[#797C86]">Stakeholders</p>
+                        <ul class="text-white underline decoration-[#2F2F37] underline-offset-8 space-y-3">
+                            <li><a href="#">Glintopia</a></li>
+                            <li><a href="#">Fluxway</a></li>
+                            <li><a href="#">Fable’s</a></li>
+                            <li><a href="#">PowerCore</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="space-y-4">
+                        <p class="text-[#797C86]">Offerings</p>
+                        <ul class="text-white underline decoration-[#2F2F37] underline-offset-8 space-y-3">
+                            <li><a href="#">Glintopia</a></li>
+                            <li><a href="#">Fluxway</a></li>
+                            <li><a href="#">Fable’s</a></li>
+                            <li><a href="#">PowerCore</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <section class="hr">
+                <div class="w-full h-[1px] bg-[#1C1C21]"></div>
+            </section>
+
+            <div class="container mx-auto footer-bottom px-1 py-5">
+                <div class="flex flex-col md:flex-row justify-between ">
+                    <div class="text-[#797C86] text-[18px] flex items-center gap-3">
+                        <p>Terms & Conditions</p>
+                        <div class="h-[14px] w-[1px] bg-[#1C1C21]"></div>
+                        <p>Privacy Policy</p>
+                    </div>
+
+                    <div>
+                        <p class="text-[#797C86] text-[18px]">
+                            &copy; murad00 2024 All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer end -->
+</body>
+
+</html>
